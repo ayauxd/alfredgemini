@@ -1,11 +1,20 @@
-sounddevice==0.4.6
-numpy==1.26.4
-vosk==0.3.45
-pyttsx3==2.90
-openai==1.12.0
-python-dotenv==1.0.1
-requests==2.31.0
-colorlog==6.8.2
-pytest==8.0.0
-pynput==1.7.6
-# Optional: pvporcupine==3.0.1 (Uncomment if you have a key)
+# Alfred Gemini - Dependencies
+
+# Google AI (primary)
+google-generativeai>=0.3.0
+
+# Audio I/O
+sounddevice>=0.4.6
+numpy>=1.26.4
+
+# Fallback speech recognition
+SpeechRecognition>=3.10.0
+
+# Environment
+python-dotenv>=1.0.1
+
+# Optional: System TTS fallback (Windows)
+# pyttsx3>=2.90
+
+# Development
+pytest>=8.0.0
