@@ -18,8 +18,8 @@ if not API_KEY:
     print("Warning: No API key found. Set GOOGLE_API_KEY or GEMINI_API_KEY in .env")
 
 # Model Configuration
-GEMINI_PRO_MODEL = "gemini-1.5-pro"
-GEMINI_FLASH_MODEL = "gemini-1.5-flash"
+GEMINI_PRO_MODEL = "gemini-2.5-pro"
+GEMINI_FLASH_MODEL = "gemini-2.0-flash"
 DEFAULT_MODEL = GEMINI_FLASH_MODEL  # Use Flash for speed
 
 # Audio Configuration
